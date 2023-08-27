@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Pressione ENTER para começar");
             Console.ReadLine();
-            //Chamo o método que vamos usar, isto é, Invoke
+            //Chamo o método que vamos usar, isto é, Parallel.Invoke
             Parallel.Invoke(()=>{ ExibirDias(); },
                 () => { ExibirMeses(); },
                 () => { ExibirProvincias(); }

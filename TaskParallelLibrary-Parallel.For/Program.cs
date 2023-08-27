@@ -8,7 +8,7 @@
             Console.ReadLine();
             ProcessarLaco();
             Console.WriteLine("\n\n");
-            //Chamo o método que vamos usar, isto é, For
+            //Chamo o método que vamos usar, isto é, Parallel.for
 
             Parallel.For(0,11,i=>Console.WriteLine(i + "\t"));
             Console.ReadLine();
